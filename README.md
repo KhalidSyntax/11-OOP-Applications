@@ -86,42 +86,39 @@ Allows users to convert between different currencies.
 ### 🚪 Logout  
 Exit the system securely.
 
-### 📁 Project Structure
+## 📁 Project Structure
+
+```text
 BankSystem/
-│
 ├── Core/
-│   ├── cIsBankClient.h
-│   ├── cIsCurrency.h
-│   ├── cIsPerson.h
-│   ├── cIsUser.h
+│   ├── clsBankClient.h
+│   ├── clsCurrency.h
+│   ├── clsPerson.h
+│   ├── clsUser.h
 │   └── InterfaceCommunication.h
-│
 ├── Lib/
-│   ├── cIsDate.h
-│   ├── cIsInputValidate.h
-│   ├── cIsString.h
-│   └── cIsUtility.h
-│
+│   ├── clsDate.h
+│   ├── clsInputValidate.h
+│   ├── clsString.h
+│   └── clsUtility.h
 ├── Screens/
 │   ├── clsEmployee.h
 │   ├── clsMainMenu.h
 │   ├── clsScreen.h
 │   ├── Global.h
-│   │
 │   ├── Client/
-│   │   ├── cIsAddNewClientsScreen.h
-│   │   ├── cIsClientListScreen.h
-│   │   ├── cIsDeleteClientScreen.h
-│   │   ├── cIsFindClientScreen.h
-│   │   ├── cIsTransactionsMenuScreen.h
-│   │   ├── cIsTransfersLogScreen.h
-│   │   ├── cIsUpdateClientScreen.h
+│   │   ├── clsAddNewClientsScreen.h
+│   │   ├── clsClientListScreen.h
+│   │   ├── clsDeleteClientScreen.h
+│   │   ├── clsFindClientScreen.h
+│   │   ├── clsTransactionsMenuScreen.h
+│   │   ├── clsTransfersLogScreen.h
+│   │   ├── clsUpdateClientScreen.h
 │   │   └── Transactions/
-│   │       ├── cIsDepositScreen.h
-│   │       ├── cIsTotalBalanceScreen.h
-│   │       ├── cIsTransferScreen.h
-│   │       └── cIsWithdrawScreen.h
-│   │
+│   │       ├── clsDepositScreen.h
+│   │       ├── clsTotalBalanceScreen.h
+│   │       ├── clsTransferScreen.h
+│   │       └── clsWithdrawScreen.h
 │   ├── User/
 │   │   ├── clsAddNewUsersScreen.h
 │   │   ├── clsDeleteUserScreen.h
@@ -131,10 +128,9 @@ BankSystem/
 │   │   ├── clsManageUsersMenuScreen.h
 │   │   ├── clsShowLoginRegisterScreen.h
 │   │   └── clsUpdateUserScreen.h
-│   │
 │   └── Currencies/
-│       ├── cIsCurrenciesListScreen.h
-│       ├── cIsCurrencyCalculatorScreen.h
-│       ├── cIsCurrencyExchangeMainScreen.h
-│       ├── cIsFindCurrency.h
-│       └── cIsUpdateCurrencyRateScreen.h
+│       ├── clsCurrenciesListScreen.h
+│       ├── clsCurrencyCalculatorScreen.h
+│       ├── clsCurrencyExchangeMainScreen.h
+│       ├── clsFindCurrency.h
+│       └── clsUpdateCurrencyRateScreen.h
